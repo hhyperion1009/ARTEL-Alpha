@@ -1,0 +1,88 @@
+.first-section {
+    display: flex;
+    padding: 120px 0 40px 0;
+    text-align: center;
+    place-content: center;
+    font-size: 25px;
+    background-color: forestgreen;
+}
+
+#products {
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    place-content: center;
+    padding: 32px;
+    width: calc(100% - 66px);
+}
+
+#products ul {
+    width: 80%;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#products ul li {
+    list-style-type: none;
+    display: flex;
+    padding: 16px;
+    gap: 8px;
+    align-items: center;
+    place-content: center;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+#products .remove {
+    background: none;
+    border: none;
+    border-radius: 10px;
+}
+
+#products ul li img {
+    width: 200px;
+    border-radius: 10px;
+    border: 5px solid;
+}
+
+#products .info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#products a {
+    text-decoration: none;
+    color: black;
+}
+
+.ting-ting {
+    display: flex;
+    place-content: center;
+    gap: 128px;
+    min-height: 100px;
+    margin-bottom: 30px;
+}
+
+.ting-ting .total-money {
+    text-align: center;
+    place-content: center;
+    background-color: cadetblue;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.ting-ting #pay-btn {
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkseagreen;
+    font-weight: bold;
+}
+
+.ting-ting #pay-btn:hover {
+    background-color: darkslategray;
+}

@@ -1,0 +1,547 @@
+{
+    "meta": {
+        "total": 30,
+        "currency": "pound"
+    },
+    "items": [
+        {
+            "id": "1",
+            "type": "painting",
+            "title": "Misty Forest Trees",
+            "author": "Marc Todd",
+            "size": {
+                "width": 45.7,
+                "height": 55.9,
+                "depth": 1.8,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "acrylic",
+            "style": ["impressionistic"],
+            "subject": ["landscape", "seascape", "sky"],
+            "price": 4950
+        },
+        
+        {
+            "id": "2",
+            "type": "painting",
+            "title": "DreamLights",
+            "author": "Arun Prem",
+            "size": {
+                "width": 50.8,
+                "height": 40.64,
+                "depth": 3.81,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "Oil",
+            "style": ["expressive", "gestural"],
+            "subject": ["abstract", "non-figurative"],
+            "price": 5350.03
+        },
+        
+        {
+            "id": "3",
+            "type": "painting",
+            "title": "A walk in the early evening",
+            "author": "Jonesy",
+            "size": {
+                "width": 60,
+                "height": 80,
+                "depth": 3.2,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "Oil",
+            "style": ["abstract"],
+            "subject": ["abstract", "non-figurative"],
+            "price": 7500
+        },
+        
+        {
+            "id": "4",
+            "type": "painting",
+            "title": "Evening Shade in the Mountains",
+            "author": "Suren Nersisyan",
+            "size": {
+                "width": 91.44,
+                "height": 60.96,
+                "depth": 1.78,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "Oil",
+            "style": ["expressive", "gestural"],
+            "subject": ["landscape", "seascape", "sky"],
+            "price": 7800.25
+        },
+        
+        {
+            "id": "5",
+            "type": "painting",
+            "title": "Autumn in Daverham",
+            "author": "Hazel Thomson",
+            "size": {
+                "width": 76,
+                "height": 101,
+                "depth": 2,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "Oil",
+            "style": ["impressionistic"],
+            "subject": ["landscape", "seascape", "sky"],
+            "price": 1800
+        },
+        
+        {
+            "id": "6",
+            "type": "painting",
+            "title": "2416",
+            "author": "Alex Senchenko",
+            "size": {
+                "width": 150,
+                "height": 100,
+                "depth": 1.5,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "acrylic",
+            "style": ["abstract"],
+            "subject": ["abstract", "non-figurative"],
+            "price": 1900
+        },
+        
+        {
+            "id": "7",
+            "type": "painting",
+            "title": "Seascape Sunset Symphony",
+            "author": "Behshad Arjomandi",
+            "size": {
+                "width": 100,
+                "height": 100,
+                "depth": 2,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "acrylic",
+            "style": ["expressive", "gestural"],
+            "subject": ["landscape", "seascape", "sky"],
+            "price": 822.7
+        },
+        
+        {
+            "id": "8",
+            "type": "painting",
+            "title": "Slated Nara",
+            "author": "Franko",
+            "size": {
+                "width": 150,
+                "height": 150,
+                "depth": 4,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "acrylic",
+            "style": ["abstract"],
+            "subject": ["abstract", "non-figurative"],
+            "price": 2154.97
+        },
+        
+        {
+            "id": "9",
+            "type": "painting",
+            "title": "Peaceful Clouds",
+            "author": "Bo Kravchenko",
+            "size": {
+                "width": 78.74,
+                "height": 78.74,
+                "depth": 3.81,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "Oil",
+            "style": ["impressionistic"],
+            "subject": ["landscape", "seascape", "sky"],
+            "price": 1185.23
+        },
+        
+        {
+            "id": "10",
+            "type": "painting",
+            "title": "Supernova D 2",
+            "author": "Peter Nottrott",
+            "size": {
+                "width": 155,
+                "height": 105,
+                "depth": 3.81,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "acrylic",
+            "style": ["abstract"],
+            "subject": ["abstract", "non-figurative"],
+            "price": 2069.74
+        },
+        
+        {
+            "id": "11",
+            "type": "painting",
+            "title": "A new day II",
+            "author": "Andrada Anghel",
+            "size": {
+                "width": 50.8,
+                "height": 50.8,
+                "depth": 3.81,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "Oil",
+            "style": ["abstract"],
+            "subject": ["abstract", "non-figurative"],
+            "price": 2970.24
+        },
+        
+        {
+            "id": "12",
+            "type": "painting",
+            "title": "Golden Hour",
+            "author": "Beata Belanszky Demko",
+            "size": {
+                "width": 100,
+                "height": 100,
+                "depth": 2,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "Oil",
+            "style": ["organic"],
+            "subject": ["landscape", "seascape", "sky"],
+            "price": 2455
+        },
+        
+        {
+            "id": "13",
+            "type": "painting",
+            "title": "Roses Are black",
+            "author": "MULLO ART",
+            "size": {
+                "width": 65,
+                "height": 90,
+                "depth": 1.5,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "Oil",
+            "style": ["photorealism"],
+            "subject": ["figurative", "portrait"],
+            "price": 1645.4
+        },
+        
+        {
+            "id": "14",
+            "type": "painting",
+            "title": "Slewpie (Jure Series)",
+            "author": "Hugh Abernethy",
+            "size": {
+                "width": 150,
+                "height": 90,
+                "depth": 4,
+                "unit": "cm"
+            },
+            "framing": "unframed",
+            "material": "Oil",
+            "style": ["abstract"],
+            "subject": ["abstract", "non-figurative"],
+            "price": 1836.5
+        },
+        
+        {
+            "id": "15",
+            "type": "painting",
+            "title": "Lily pond after the rain",
+            "author": "Lilia Orlova-Holmes",
+            "size": {
+                "width": 120,
+                "height": 90,
+                "depth": 2,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "Oil",
+            "style": ["expressive", "gestural"],
+            "subject": ["abstract", "non-figurative"],
+            "price": 26800
+        },
+        
+        {
+            "id": "16",
+            "type": "painting",
+            "title": "Quiet Exposure",
+            "author": "Faith Patterson",
+            "size": {
+                "width": 60.96,
+                "height": 45.72,
+                "depth": 2.54,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "Oil",
+            "style": ["impressionistic"],
+            "subject": ["landscape", "seascape", "sky"],
+            "price": 1371.55
+        },
+        
+        {
+            "id": "17",
+            "type": "painting",
+            "title": "Music of Colour",
+            "author": "Rashna Hackett",
+            "size": {
+                "width": 182.88,
+                "height": 92.96,
+                "depth": 0.25,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "acrylic",
+            "style": ["organic"],
+            "subject": ["abstract", "non-figurative"],
+            "price": 1920
+        },
+        
+        {
+            "id": "18",
+            "type": "painting",
+            "title": "Earth 22",
+            "author": "Tatiana Georgieva",
+            "size": {
+                "width": 155,
+                "height": 95,
+                "depth": 5,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "acrylic",
+            "style": ["organic"],
+            "subject": ["abstract", "non-figurative"],
+            "price": 2240.5
+        },
+        
+        {
+            "id": "19",
+            "type": "painting",
+            "title": "FAIRGROUND",
+            "author": "Inez Froehlich",
+            "size": {
+                "width": 160,
+                "height": 120,
+                "depth": 4,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "acrylic",
+            "style": ["expressive", "gestural"],
+            "subject": ["abstract", "non-figurative"],
+            "price": 1255.7
+        },
+        
+        {
+            "id": "20",
+            "type": "painting",
+            "title": "Gravity of Desire",
+            "author": "Lena Vylusk",
+            "size": {
+                "width": 30,
+                "height": 40,
+                "depth": 2,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "Oil",
+            "style": ["surrealism"],
+            "subject": ["animals", "birds"],
+            "price": 1250
+        },
+        
+        {
+            "id": "21",
+            "type": "painting",
+            "title": "Desert Afterglow",
+            "author": "Suren Nersisyan",
+            "size": {
+                "width": 45.72,
+                "height": 35.56,
+                "depth": 1.27,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "Oil",
+            "style": ["expressive", "gestural"],
+            "subject": ["landscape", "seascape", "sky"],
+            "price": 1274.94
+        },
+        
+        {
+            "id": "22",
+            "type": "painting",
+            "title": "Two Lemons",
+            "author": "Pascal Giroud",
+            "size": {
+                "width": 20,
+                "height": 15,
+                "depth": 0.3,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "Oil",
+            "style": ["impressionistic"],
+            "subject": ["still-life"],
+            "price": 1207.84
+        },
+        
+        {
+            "id": "23",
+            "type": "painting",
+            "title": "Lavender Lake",
+            "author": "Ewa Czarniecka",
+            "size": {
+                "width": 40,
+                "height": 40,
+                "depth": 2,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "Oil",
+            "style": ["impressionistic"],
+            "subject": ["landscape", "seascape", "sky"],
+            "price": 5000
+        },
+        
+        {
+            "id": "24",
+            "type": "painting",
+            "title": "Serene",
+            "author": "Guy Pickford",
+            "size": {
+                "width": 25,
+                "height": 32,
+                "depth": 0,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "Oil",
+            "style": ["impressionistic"],
+            "subject": ["landscape", "seascape", "sky"],
+            "price": 1200
+        },
+        
+        {
+            "id": "25",
+            "type": "painting",
+            "title": "Golden hour",
+            "author": "Beata Belanszky Demko",
+            "size": {
+                "width": 70,
+                "height": 50,
+                "depth": 2,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "Oil",
+            "style": ["impressionistic"],
+            "subject": ["landscape", "seascape", "sky"],
+            "price": 1685
+        },
+        
+        {
+            "id": "26",
+            "type": "painting",
+            "title": "Fiery Glow Over the Silent Sea",
+            "author": "Andrej Ostapchuk",
+            "size": {
+                "width": 80,
+                "height": 60,
+                "depth": 1.5,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "Oil",
+            "style": ["abstract"],
+            "subject": ["landscape", "seascape", "sky"],
+            "price": 1595
+        },
+        
+        {
+            "id": "27",
+            "type": "painting",
+            "title": "Pink Water Lilies",
+            "author": "Anastasiia Valiulina",
+            "size": {
+                "width": 100,
+                "height": 70,
+                "depth": 3,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "Oil",
+            "style": ["impressionistic"],
+            "subject": ["flowers", "plants"],
+            "price": 2598
+        },
+        
+        {
+            "id": "28",
+            "type": "painting",
+            "title": "Girl in a red hat",
+            "author": "Ta Byrne",
+            "size": {
+                "width": 100,
+                "height": 130,
+                "depth": 4,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "Oil",
+            "style": ["impressionistic"],
+            "subject": ["figurative", "portrait"],
+            "price": 2805
+        },
+        
+        {
+            "id": "29",
+            "type": "painting",
+            "title": "Dreamy Sunset Colors",
+            "author": "Behshad Arjomandi",
+            "size": {
+                "width": 73,
+                "height": 54,
+                "depth": 2,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "Oil",
+            "style": ["impressionistic"],
+            "subject": ["landscape", "seascape", "sky"],
+            "price": 625.69
+        },
+        
+        {
+            "id": "30",
+            "type": "painting",
+            "title": "Summer tenderness",
+            "author": "Nadiia Antoniuk",
+            "size": {
+                "width": 210,
+                "height": 125,
+                "depth": 0.3,
+                "unit": "cm"
+            },
+            "framing": "framed",
+            "material": "acrylic",
+            "style": ["impressionistic"],
+            "subject": ["landscape", "seascape", "sky"],
+            "price": 3897
+        }
+    ]
+}

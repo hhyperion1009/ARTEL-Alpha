@@ -5,6 +5,7 @@
         <title>ARTEL - Your Cart</title>
         <link rel="icon" href="assets/Logo%20-%20White.png">
         <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="cart.css" />
     </head>
     <body>
         <nav>
@@ -31,10 +32,10 @@
                     </button>
                     
                     <div class="dropdown-content">
-                        <a href="gallery.html">Tất cả</a>
-                        <a href="gallery.html">Tranh</a>
-                        <a href="gallery.html">Điêu Khắc</a>
-                        <a href="gallery.html">Nhiếp Ảnh</a>
+                        <a href="gallery.html?filter=none">Tất cả</a>
+                        <a href="gallery.html?filter=painting">Tranh</a>
+                        <a href="gallery.html?filter=sculpture">Điêu Khắc</a>
+                        <a href="gallery.html?filter=photo">Nhiếp Ảnh</a>
                         <a href="blog.html">Blog</a>
                     </div>
                 </div>
@@ -43,14 +44,27 @@
         </nav>
         
         <div class="first-section">
-            <h1>Coming Soon!!!</h1>        
+            <h1>My Cart</h1>        
         </div>
         
+        <div id="products">
+            <ul id="cart-list"></ul>
+        </div>
+        
+        <div class="ting-ting">
+            <div class="total-money">
+                <p id="cart-total"></p>
+            <p id="vnd-exchange"></p>
+            </div>
+            <button id="pay-btn"><i class="fa-regular fa-paper-plane"></i> THANH TOÁN</button>
+        </div>
+
         <footer>
             <p>This is a footer</p>
         </footer>
 
         <script src="script.js"></script>
+        <script src="cart.js"></script>
         <script src="https://kit.fontawesome.com/2abdd35d73.js" crossorigin="anonymous"></script>
     </body>
 </html>

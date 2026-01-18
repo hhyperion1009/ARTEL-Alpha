@@ -12,6 +12,7 @@ nav {
     height: 80px;
     width: calc(100% - 12px);
     position: fixed;
+    z-index: 999;
 }
 
 nav .logo {
