@@ -9,55 +9,55 @@
     </head>
     <body>
         <nav>
-            <div class="logo">
-                <img src="assets/Logo%20-%20White.png">
-            </div>
-            <a href="index.html" class="title"><strong>ARTEL</strong></a>
+            <div class="up-nav">
+                <div class="logo">
+                    <img src="assets/artel-logo-squared.png">
+                </div>
+                <a href="home.html" class="title"><strong>ARTEL</strong></a>
             
-            <div class="right">
-                <div class="search-wrapper">
-                    <input type="search" placeholder="Search" class="search-bar">
-                    <button class="search-btn" onclick="toggleSearch()">
-                        <i class="fa-solid fa-search"></i>
-                    </button>
-                </div>
-                
-                <button class="cart-btn" onclick="location.href='cart.html'">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </button>
-                
-                <div class="dropdown">
-                    <button class="dropdown-btn" onclick="toggleDropdown()">
-                        <i class="fa-solid fa-angle-down"></i>
-                    </button>
-                    
-                    <div class="dropdown-content">
-                        <a href="gallery.html?filter=none">Tất cả</a>
-                        <a href="gallery.html?filter=painting">Tranh</a>
-                        <a href="gallery.html?filter=sculpture">Điêu Khắc</a>
-                        <a href="gallery.html?filter=photo">Nhiếp Ảnh</a>
-                        <a href="blog.html">Blog</a>
+                <div class="right">
+                    <div class="search-wrapper">
+                        <input type="search" placeholder="Search" class="search-bar">
+                        <button class="search-btn" onclick="toggleSearch()">
+                            <i class="fa-solid fa-search"></i>
+                        </button>
                     </div>
-                </div>
                 
+                    <button class="cart-btn" onclick="location.href='cart.html'">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </div>
             </div>
+
+            <div class="bot-nav">
+                    <a href="gallery.html?filter=none">Tất cả</a>
+                    <a href="gallery.html?filter=painting">Tranh</a>
+                    <a href="gallery.html?filter=sculpture">Điêu Khắc</a>
+                    <a href="gallery.html?filter=photo">Nhiếp Ảnh</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="about.html">Về Chúng Tôi</a>
+            </div>
+    
         </nav>
         
         <div class="first-section">
             <h1>My Cart</h1>        
         </div>
         
-        <div id="products">
-            <ul id="cart-list"></ul>
+        <div class="cart-section">
+            <div id="products">
+                <ul id="cart-list"></ul>
+            </div>
+        
+            <div class="ting-ting">
+                <div class="total-money">
+                    <p id="cart-total"></p>
+                    <p id="vnd-exchange"></p>
+                </div>
+                <button id="pay-btn"><i class="fa-regular fa-paper-plane"></i> THANH TOÁN</button>
+            </div>
         </div>
         
-        <div class="ting-ting">
-            <div class="total-money">
-                <p id="cart-total"></p>
-            <p id="vnd-exchange"></p>
-            </div>
-            <button id="pay-btn"><i class="fa-regular fa-paper-plane"></i> THANH TOÁN</button>
-        </div>
 
         <footer>
             <p>This is a footer</p>

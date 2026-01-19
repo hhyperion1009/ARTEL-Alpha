@@ -16,7 +16,7 @@ ul.innerHTML = "";
 let total = 0;
 
 if (cart.length === 0) {
-    ul.innerHTML = "<li><a href='gallery.html'><strong>Your Cart is emtpy! Go buy something?</strong></a></li>";
+    ul.innerHTML = "<li><a href='gallery.html?filter=none'><strong>Your Cart is emtpy! Go buy something?</strong></a></li>";
     totalEl.innerHTML = '';
     vndEl.innerHTML = '';
 } else {

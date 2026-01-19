@@ -5,9 +5,9 @@
     font-size: 28px;
     background-color: cadetblue;
     overflow: hidden;
-    padding: 100px 50px 0 50px;
     word-break: break-word;
     font-weight: bold;
+    padding: 8px 32px;
 }
 
 #post-content {

@@ -9,7 +9,3 @@ function toggleSearch() {
         input.focus();
     }
 }
-
-function toggleDropdown() {
-    document.querySelector('.dropdown').classList.toggle('open');
-}

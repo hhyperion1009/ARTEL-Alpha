@@ -1,0 +1,63 @@
+.about-title {
+    text-align: center;
+    place-content: center;
+    height: 150px;
+    font-size: 32px;
+    background-color: aquamarine;
+}
+
+.about-content {
+    margin: 32px 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.logo-slogan {
+    display: flex;
+    place-items: center;
+    place-content: center;
+    gap: 32px;
+}
+
+.logo-slogan img {
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.introduction {
+    background-color: cadetblue;
+    padding: 32px;
+    border-radius: 10px;
+}
+
+.introduction-title {
+    font-size: 20px;
+    margin-bottom: 1em;
+}
+
+.introduction-content {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.vision {
+    background-color: darkseagreen;
+    padding: 32px;
+    border-radius: 10px;
+}
+
+.vision-title {
+    font-size: 20px;
+    margin-bottom: 1em;
+}
+
+.vision ul li {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.not-last {
+    margin: 0 0 1.2em;
+}

@@ -1,25 +1,24 @@
 .first-section {
-    display: flex;
-    padding: 120px 0 40px 0;
+    height: 200px;
     text-align: center;
     place-content: center;
     font-size: 25px;
     background-color: forestgreen;
 }
 
-#products {
-    min-height: 100px;
+.cart-section {
+    margin: 32px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    place-content: center;
-    padding: 32px;
-    width: calc(100% - 66px);
+    gap: 32px;
+}
+
+#products {
+    place-items: center;
 }
 
 #products ul {
-    width: 80%;
-    padding-left: 0;
+    max-width: 75%;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -29,17 +28,24 @@
     list-style-type: none;
     display: flex;
     padding: 16px;
-    gap: 8px;
     align-items: center;
-    place-content: center;
+    text-align: center;
     border: 1px solid;
     border-radius: 10px;
+    position: relative;
 }
 
 #products .remove {
-    background: none;
+    position: absolute;
+    right: 16px;
+    background-color: rgba(0, 0, 0, 0.2);
     border: none;
-    border-radius: 10px;
+    padding: 5px 8px;
+    border-radius: 100%;
+}
+
+#products .remove:hover {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #products ul li img {
@@ -62,16 +68,13 @@
 .ting-ting {
     display: flex;
     place-content: center;
-    gap: 128px;
-    min-height: 100px;
-    margin-bottom: 30px;
+    gap: 100px;
 }
 
 .ting-ting .total-money {
     text-align: center;
-    place-content: center;
     background-color: cadetblue;
-    padding: 16px;
+    padding: 25px;
     border-radius: 10px;
 }
 
@@ -79,10 +82,10 @@
     padding: 16px;
     border: none;
     border-radius: 10px;
-    background-color: darkseagreen;
+    background-color: rgba(143, 188, 143, 0.65);
     font-weight: bold;
 }
 
 .ting-ting #pay-btn:hover {
-    background-color: darkslategray;
+    background-color: darkseagreen;
 }
