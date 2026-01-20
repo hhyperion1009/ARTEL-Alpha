@@ -1,5 +1,6 @@
 ---
 title: Bức tranh sơn dầu đầu tiên mô tả một nghệ sĩ đang làm việc trong triển lãm Nghệ sĩ Cổ điển nữ.
+cover: blog7.webp
 ---
 
 Bức *Self-portrait at the Easel* (1548) của **Catharina van Hemessen** — được xem là **bản tự họa sớm nhất có chữ ký còn tồn tại của một nữ nghệ sĩ** và cũng là **bức tranh sơn dầu đầu tiên miêu tả một nghệ sĩ đang làm việc với giá vẽ, cọ và bảng pha màu** — sẽ đứng trung tâm trong một triển lãm lớn sắp tới.

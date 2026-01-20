@@ -1,5 +1,6 @@
 ---
 title: Những gã khổng lồ trong thế giới nghệ thuật mà chúng ta đã mất trong năm 2025.
+cover: blog12.webp
 ---
 
 Khi năm dần kết thúc, chúng ta **không thể tiến về phía trước mà không tưởng nhớ những ai đã ra đi**. Trong năm 2025, thế giới nghệ thuật tiễn biệt nhiều nhân vật xuất chúng — từ nhà làm phim huyền thoại **David Lynch**, kiến trúc sư thay đổi đường chân trời thành phố **Frank Gehry**, đến nghệ sĩ gốc bản địa có tầm ảnh hưởng **Jaune Quick-to-See Smith**, và người giám tuyển được yêu mến **Koyo Kouoh**… và còn nhiều người khác nữa. Danh sách dưới đây gồm **20 nhân vật đã khuất** trong năm, được sắp theo trình tự thời điểm họ qua đời trong năm, và họ sẽ còn sống mãi qua di sản và ảnh hưởng của mình.

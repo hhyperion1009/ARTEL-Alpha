@@ -1,5 +1,6 @@
 ---
 title: Jacques-Louis David tại Musée du Louvre, Paris.
+cover: blog5.webp
 ---
 
 Triển lãm trưng bày rộng rãi các tác phẩm của **Jacques-Louis David (1748–1825)**, họa sĩ nổi bật của phong trào Tân cổ điển, trong một cuộc tổng khảo lớn nhất gần bốn thập kỷ qua, nhằm kỷ niệm **200 năm ngày mất của ông**.

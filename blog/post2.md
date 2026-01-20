@@ -1,5 +1,6 @@
 ---
 title: Câu chuyện chưa từng kể về Bữa Tiệc Ly của Chúa Jesus.
+cover: blog2.webp
 ---
 
 **Bữa Tiệc Ly** có thể là một bức tranh tường thế kỷ 15 do nghệ sĩ Ý **Leonardo da Vinci** vẽ, hiện được treo trong phòng ăn của Tu viện Santa Maria delle Grazie ở Milan, Ý. Đây là một trong những bức tranh nổi bật nhất trong nghệ thuật phương Tây.

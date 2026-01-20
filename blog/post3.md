@@ -1,5 +1,6 @@
 ---
 title: Các bức tranh của Tổng thống Mỹ Jimmy Carter được đem đấu giá.
+cover: blog3.webp
 ---
 
 Các **tác phẩm hội họa** của cố tổng thống **Mỹ Jimmy Carter** cùng một số đồ vật cá nhân của gia đình ông sẽ được đem ra đấu giá trong tháng này tại **Christie’s ở New York** trong một phiên đấu giá mang tên *We the People: America at 250* — kỷ niệm **250 năm ngày lập quốc Hoa Kỳ**.

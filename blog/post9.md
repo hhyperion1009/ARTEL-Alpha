@@ -1,5 +1,6 @@
 ---
 title: Ảnh hưởng của chủ nghĩa Hiện đại châu Âu đối với nhóm Scottish Colourists được khám phá trong một triển lãm mới.
+cover: blog9.webp
 ---
 
 Một triển lãm mới tại **Dovecot Studios, Edinburgh** đã xem xét lại vai trò của **chủ nghĩa Hiện đại châu Âu** trong việc hình thành phong cách của nhóm họa sĩ được gọi là **Scottish Colourists** — gồm **Samuel Peploe, J.D. Fergusson, George Leslie Hunter và F.C.B. Cadell**.

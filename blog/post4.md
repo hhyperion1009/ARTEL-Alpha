@@ -1,5 +1,6 @@
 ---
 title: Tại London, khách sạn là nơi nghệ thuật hiện hữu.
+cover: blog4.webp
 ---
 
 Số lượng **khách sạn hạng sang mới ở London** tiếp tục tăng — và việc khai trương **Rosewood Chancery** vào tháng 9 tại Grosvenor Square, trong khuôn viên **Đại sứ quán Mỹ cũ**, do kiến trúc sư người Phần Lan–Mỹ **Eero Saarinen** hoàn thành năm 1960, đang thu hút sự chú ý lớn. Với kiến trúc được **David Chipperfield** tái hiện và nội thất do hãng **Joseph Dirand** ở Paris thiết kế, khách sạn này đã thêm **144 phòng suite** vào tổng số phòng sang trọng của thành phố. Dự kiến trong năm nay sẽ có tổng cộng khoảng **757 phòng** năm sao trở lên được mở ra.

@@ -1,5 +1,6 @@
 ---
 title: Cuốn sách mới kể lại câu chuyện về “Cái chết của Marat” của David qua góc nhìn của một người ngưỡng mộ suốt đời.
+cover: blog8.webp
 ---
 
 Cuốn sách mới của **Philippe Bordes**, một trong những học giả hàng đầu về **Jacques-Louis David**, mang đến một cách tiếp cận đặc biệt đối với bức tranh nổi tiếng *The Death of Marat* (1793) — không phải như một phân tích khô khan, mà như **một cuộc đối thoại kéo dài cả đời giữa học giả và tác phẩm**.

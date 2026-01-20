@@ -1,5 +1,6 @@
 ---
 title: Sự trỗi dậy của “Xa xỉ thầm lặng” trong hội họa đương đại.
+cover: blog1.webp
 ---
 
 Bạn có thể đổ lỗi cho chiếc mũ lưỡi trai Loro Piana 500 đô la đó. Chiếc mũ cashmere Ý không logo mà Kendall Roy đội trong *Succession* đã tiêu biểu cho thời đại “xa xỉ thầm lặng” — một tín hiệu thầm lặng của sự giàu có theo thẩm mỹ kín đáo, dành cho tầng lớp thượng lưu am hiểu.

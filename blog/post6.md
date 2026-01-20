@@ -1,5 +1,6 @@
 ---
 title: Nghệ sĩ Anh quá cố Sarah Cunningham được vinh danh với buổi trình diễn tại Nottingham Contemporary.
+cover: blog6.webp
 ---
 
 Phòng trưng bày Nottingham Contemporary (Anh) đã công bố kế hoạch tổ chức **cuộc triển lãm solo chính thức đầu tiên** cho nghệ sĩ người Anh **Sarah Cunningham**, người đã qua đời năm 2024. Đây là **buổi trình diễn lớn nhất về tác phẩm của cô** kể từ trước đến nay, dự kiến mở cửa vào mùa thu năm sau ở thành phố nơi cô sinh ra và lớn lên.

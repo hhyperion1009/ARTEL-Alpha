@@ -1,5 +1,6 @@
 ---
 title: Phát hiện dấu vân tay của Van Gogh trên một bức tranh vườn ô liu.
+cover: blog11.webp
 ---
 
 Các nhà nghiên cứu bảo tồn đã phát hiện **dấu vân tay của Vincent van Gogh** trên một bức tranh vườn ô liu được vẽ tại **Saint-Rémy-de-Provence** vào năm 1889, trong thời gian họa sĩ điều trị tại bệnh viện tâm thần.

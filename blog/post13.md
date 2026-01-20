@@ -1,5 +1,6 @@
 ---
 title: Brilant Milazimi sẽ đại diện Kosovo tại La Biennale di Venezia lần thứ 61.
+cover: blog13.webp
 ---
 
 Họa sĩ người Kosovo **Brilant Milazimi** đã được chọn để **đại diện nước Cộng hòa Kosovo** tại **Triển lãm Nghệ thuật Quốc tế – *La Biennale di Venezia*** lần thứ **61**, sẽ diễn ra từ **ngày 9 tháng 5 đến 22 tháng 11 năm 2026** ở Venice, Ý — một trong những sự kiện nghệ thuật đương đại quan trọng và danh giá nhất thế giới.

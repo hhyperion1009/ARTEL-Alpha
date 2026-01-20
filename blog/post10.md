@@ -1,5 +1,6 @@
 ---
 title: Hiểu ngôn ngữ cảm giác của bảng màu.
+cover: blog10.webp
 ---
 
 Bài viết này bàn về **cách màu sắc tác động đến giác quan và cảm xúc con người**, vượt ra ngoài chức năng mô tả đơn thuần. Theo tác giả, bảng màu không chỉ là công cụ kỹ thuật mà là **một ngôn ngữ cảm giác**, có khả năng gợi lên xúc giác, nhiệt độ, âm thanh và ký ức.
