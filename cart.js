@@ -1,3 +1,9 @@
+function pay() {
+    localStorage.removeItem("cart");
+    alert("Thanh toán thành công!");
+    location.reload()
+}
+
 function getCart() {
   return JSON.parse(localStorage.getItem("cart")) || [];
 }

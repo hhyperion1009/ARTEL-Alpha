@@ -70,11 +70,16 @@ fetch("./photos.json")
             throw new Error("Invalid Product ID!");
         }
         
-        document.getElementById("art-img").src = "./assets/images/" + id + ".webp";
-        document.getElementById("art-img").alt = product.title;
-        document.getElementById("art-title").textContent = product.title;
-        document.getElementById("art-author").innerHTML = "<em>" + product.author + "</em>";
-        document.getElementById("art-price").innerHTML = "<strong><em>£" + product.price.toLocaleString() + "</em></strong>";
+        const art = document.getElementById("art");
+    
+        art.innerHTML =
+            '<img id="art-img" src="./assets/images/' + id + '.webp" />' +
+            '<div id="art-text">' +
+                '<h3 id="art-title">' + product.title + '</h3>' +
+                '<p id="art-author"><em>Bởi ' + product.author + '</em></p>' +
+                '<p id="art-price"><strong><em>£' + product.price + '</em></strong></p>' +
+                '<button class="add-to-cart" onclick="addToCart()"><i class="fa-solid fa-cart-plus"></i><strong>ADD TO CART</strong></button>' +
+            '</div>';
     
         const ul = document.getElementById("details");
     

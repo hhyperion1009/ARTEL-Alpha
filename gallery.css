@@ -14,39 +14,69 @@
     place-content: center;
 }
 
-.gallery .card {
-    border: 1px solid;
-    padding: 10px;
-    flex: 0;
-    align-content: center;
+.card {
+    flex: 0 0 calc(20% - 16px);
     border-radius: 10px;
+    padding: 20px 12px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    place-content: center;
+    gap: 32px;
 }
 
 .gallery .card img {
-    width: 200px;
+    width: 80%;
     border-radius: 10px;
-    margin-bottom: 20px;
 }
 
-.gallery .card-title {
+.card-body {
+    width: 90%;
+}
+
+.gallery .painting-title {
     word-break: break-word;
     font-size: 15px;
-    text-align: center;
     margin-bottom: 10px;
 }
 
-.gallery .card-author {
+.gallery .painting-material, .painting-size {
     font-size: 12px;
-    text-align: center;
 }
 
-.gallery .card-price {
-    text-align: center;
-    margin-top: 10%;
+.gallery .painting-price {
+    margin-top: 10px;
     color: darkolivegreen;
 }
 
 .gallery .card:hover {
     transform: translateY(-4px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+#pagination {
+    margin: 32px;
+    display: flex;
+    place-content: center;
+    gap: 32px;
+}
+
+#pagination button {
+    background: none;
+    border: 1px solid;
+    padding: 10px 14px;
+    border-radius: 8px;
+}
+
+#pagination button.active {
+    background-color: #FF1749;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 14px;
+    color: white;
+}
+
+#pagination button:not(.active):hover {
+    color: #FF1749;
+    border: 1px solid #FF1749;
 }

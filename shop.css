@@ -1,6 +1,6 @@
 #art {
+    padding: 32px;
     display: flex;
-    padding: 120px 50px 40px 50px;
     place-content: center;
     gap: 40px;
     background-color: cornflowerblue;
