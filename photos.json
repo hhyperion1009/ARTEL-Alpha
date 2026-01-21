@@ -15,7 +15,7 @@
                 "depth": 1.8,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "acrylic",
             "style": ["impressionistic"],
             "subject": ["landscape", "seascape", "sky"],
@@ -33,7 +33,7 @@
                 "depth": 3.81,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "Oil",
             "style": ["expressive", "gestural"],
             "subject": ["abstract", "non-figurative"],
@@ -51,7 +51,7 @@
                 "depth": 3.2,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "Oil",
             "style": ["abstract"],
             "subject": ["abstract", "non-figurative"],
@@ -69,7 +69,7 @@
                 "depth": 1.78,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "Oil",
             "style": ["expressive", "gestural"],
             "subject": ["landscape", "seascape", "sky"],
@@ -87,7 +87,7 @@
                 "depth": 2,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "Oil",
             "style": ["impressionistic"],
             "subject": ["landscape", "seascape", "sky"],
@@ -105,7 +105,7 @@
                 "depth": 1.5,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "acrylic",
             "style": ["abstract"],
             "subject": ["abstract", "non-figurative"],
@@ -123,7 +123,7 @@
                 "depth": 2,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "acrylic",
             "style": ["expressive", "gestural"],
             "subject": ["landscape", "seascape", "sky"],
@@ -141,7 +141,7 @@
                 "depth": 4,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "acrylic",
             "style": ["abstract"],
             "subject": ["abstract", "non-figurative"],
@@ -159,7 +159,7 @@
                 "depth": 3.81,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "Oil",
             "style": ["impressionistic"],
             "subject": ["landscape", "seascape", "sky"],
@@ -177,7 +177,7 @@
                 "depth": 3.81,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "acrylic",
             "style": ["abstract"],
             "subject": ["abstract", "non-figurative"],
@@ -195,7 +195,7 @@
                 "depth": 3.81,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "Oil",
             "style": ["abstract"],
             "subject": ["abstract", "non-figurative"],
@@ -213,7 +213,7 @@
                 "depth": 2,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "Oil",
             "style": ["organic"],
             "subject": ["landscape", "seascape", "sky"],
@@ -231,7 +231,7 @@
                 "depth": 1.5,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "Oil",
             "style": ["photorealism"],
             "subject": ["figurative", "portrait"],
@@ -249,7 +249,7 @@
                 "depth": 4,
                 "unit": "cm"
             },
-            "framing": "unframed",
+            "framing": false,
             "material": "Oil",
             "style": ["abstract"],
             "subject": ["abstract", "non-figurative"],
@@ -267,7 +267,7 @@
                 "depth": 2,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "Oil",
             "style": ["expressive", "gestural"],
             "subject": ["abstract", "non-figurative"],
@@ -285,7 +285,7 @@
                 "depth": 2.54,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "Oil",
             "style": ["impressionistic"],
             "subject": ["landscape", "seascape", "sky"],
@@ -303,7 +303,7 @@
                 "depth": 0.25,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "acrylic",
             "style": ["organic"],
             "subject": ["abstract", "non-figurative"],
@@ -321,7 +321,7 @@
                 "depth": 5,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "acrylic",
             "style": ["organic"],
             "subject": ["abstract", "non-figurative"],
@@ -339,7 +339,7 @@
                 "depth": 4,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "acrylic",
             "style": ["expressive", "gestural"],
             "subject": ["abstract", "non-figurative"],
@@ -357,7 +357,7 @@
                 "depth": 2,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "Oil",
             "style": ["surrealism"],
             "subject": ["animals", "birds"],
@@ -375,7 +375,7 @@
                 "depth": 1.27,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "Oil",
             "style": ["expressive", "gestural"],
             "subject": ["landscape", "seascape", "sky"],
@@ -393,7 +393,7 @@
                 "depth": 0.3,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "Oil",
             "style": ["impressionistic"],
             "subject": ["still-life"],
@@ -411,7 +411,7 @@
                 "depth": 2,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "Oil",
             "style": ["impressionistic"],
             "subject": ["landscape", "seascape", "sky"],
@@ -429,7 +429,7 @@
                 "depth": 0,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "Oil",
             "style": ["impressionistic"],
             "subject": ["landscape", "seascape", "sky"],
@@ -447,7 +447,7 @@
                 "depth": 2,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "Oil",
             "style": ["impressionistic"],
             "subject": ["landscape", "seascape", "sky"],
@@ -465,7 +465,7 @@
                 "depth": 1.5,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "Oil",
             "style": ["abstract"],
             "subject": ["landscape", "seascape", "sky"],
@@ -483,7 +483,7 @@
                 "depth": 3,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "Oil",
             "style": ["impressionistic"],
             "subject": ["flowers", "plants"],
@@ -501,7 +501,7 @@
                 "depth": 4,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "Oil",
             "style": ["impressionistic"],
             "subject": ["figurative", "portrait"],
@@ -519,7 +519,7 @@
                 "depth": 2,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "Oil",
             "style": ["impressionistic"],
             "subject": ["landscape", "seascape", "sky"],
@@ -537,7 +537,7 @@
                 "depth": 0.3,
                 "unit": "cm"
             },
-            "framing": "framed",
+            "framing": true,
             "material": "acrylic",
             "style": ["impressionistic"],
             "subject": ["landscape", "seascape", "sky"],

@@ -1,15 +1,15 @@
 function pay() {
     localStorage.removeItem("cart");
     alert("Thanh toán thành công!");
-    location.reload()
+    location.reload();
 }
 
 function getCart() {
-  return JSON.parse(localStorage.getItem("cart")) || [];
+    return JSON.parse(localStorage.getItem("cart")) || [];
 }
 
 function saveCart(cart) {
-  localStorage.setItem("cart", JSON.stringify(cart));
+    localStorage.setItem("cart", JSON.stringify(cart));
 }
 
 const cart = getCart();

@@ -1,9 +1,10 @@
 .first-section {
-    height: 200px;
-    text-align: center;
-    place-content: center;
-    font-size: 25px;
-    background-color: deepskyblue;
+    margin: 48px 80px;
+}
+
+.first-section h2 {
+    font-size: 32px;
+    margin-bottom: 0.5em;
 }
 
 .gallery {

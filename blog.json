@@ -1,17 +1,68 @@
 {
     "posts": [
-        { "file": "post1" },
-        { "file": "post2" },
-        { "file": "post3" },
-        { "file": "post4" },
-        { "file": "post5" },
-        { "file": "post6" },
-        { "file": "post7" },
-        { "file": "post8" },
-        { "file": "post9" },
-        { "file": "post10" },
-        { "file": "post11" },
-        { "file": "post12" },
-        { "file": "post13" }
+        {
+            "id": 1,
+            "file": "post1"
+        },
+        
+        {
+            "id": 2,
+            "file": "post2"
+        },
+        
+        {
+            "id": 3,
+            "file": "post3"
+        },
+        
+        {
+            "id": 4,
+            "file": "post4"
+        },
+        
+        {
+            "id": 5,
+            "file": "post5"
+        },
+        
+        {
+            "id": 6,
+            "file": "post6"
+        },
+        
+        {
+            "id": 7,
+            "file": "post7"
+        },
+        
+        {
+            "id": 8,
+            "file": "post8"
+        },
+        
+        {
+            "id": 9,
+            "file": "post9"
+        },
+        
+        {
+            "id": 10,
+            "file": "post10"
+        },
+        
+        {
+            "id": 11,
+            "file": "post11"
+        },
+        
+        {
+            "id": 12,
+            "file": "post12"
+        },
+        
+        {
+            "id": 13,
+            "file": "post13"
+        }
     ]
 }

@@ -26,7 +26,7 @@
     color: darkblue;
 }
 
-#art .add-to-cart {
+#add-to-cart {
     background-color: chartreuse;
     border: none;
     display: flex;
@@ -38,19 +38,24 @@
     width: 170px;
 }
 
-#art .add-to-cart i {
+#add-to-cart i {
     opacity: 0;
     transform: translateX(-8px);
     transition: 0.2s ease;
 }
 
-#art .add-to-cart:hover {
+#add-to-cart:not(.active):hover {
     background-color: #00c700;
 }
 
-#art .add-to-cart:hover i {
+#add-to-cart:not(.active):hover i {
     opacity: 1;
     transform: translateX(0);
+}
+
+#add-to-cart.active {
+    background-color: #00c700;
+    text-align: center;
 }
 
 #art-info {

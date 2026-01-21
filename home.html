@@ -33,8 +33,6 @@
             <div class="bot-nav">
                     <a href="gallery.html?filter=none">Tất cả</a>
                     <a href="gallery.html?filter=painting">Tranh</a>
-                    <a href="gallery.html?filter=sculpture">Điêu Khắc</a>
-                    <a href="gallery.html?filter=photo">Nhiếp Ảnh</a>
                     <a href="blog.html">Blog</a>
                     <a href="about.html">Về Chúng Tôi</a>
             </div>
@@ -45,26 +43,137 @@
             
             <div class="viewport">
                 <div class="track">
-                    <div class="slide">
-                        <strong>Không gian trưng bày nghệ thuật</strong>
+                    <div class="slide" id="slide-1">
+                        <h2>Không gian trưng bày nghệ thuật</h2>
                         <p>Dành cho những tác phẩm và câu chuyện sáng tạo</p>
+                        <button onclick="goToGallery()">KHÁM PHÁ NGAY!</button>
                     </div>
-                    <div class="slide">Slide 2</div>
-                    <div class="slide">Slide 3</div>
+                    
+                    <div class="slide" id="slide-2">
+                        <h2>Tranh của các nghệ sĩ nổi bật</h2>
+                        <p>Các tác phẩm tiêu biểu và phong cách đa dạng từ những nghệ sĩ nổi bật.</p>
+                        <button onclick="goToGallery()">KHÁM PHÁ NGAY!</button>
+                    </div>
+                    
+                    <div class="slide" id="slide-3">
+                        <h2>Mã giảm giá: 12CH</h2>
+                        <p>Giảm tới 100% khi sử dụng mã "12CH"! Hạn sử dụng tới tháng 6/2026.</p>
+                        <button onclick="goToGallery()">KHÁM PHÁ NGAY!</button>
+                    </div>
                 </div>
             </div>
             
             <button id="next-btn"><i class="fa-solid fa-arrow-right"></i></button>
         </div>
         
-        <div id="random-painting"></div>
-        <div id="random-artist"></div>
-        <div id="rcm-painting"></div>
-        <div id="rcm-artist"></div>
-        <div id="artist-country"></div>
+        <div class="section-2">
+            <h2 class="section-title">Tranh được đề xuất</h2>
+            <div id="random-painting"></div>
+        </div>
+        
+        <div class="section-3">
+            <div class="usp" id="usp-1">
+                <i class="fa-solid fa-palette"></i>
+                <strong>Mỗi tác phẩm là duy nhất, có chữ ký hoặc chứng nhận từ nghệ sĩ.</strong>
+            </div>
+            
+            <div class="usp" id="usp-2">
+                <i class="fa-solid fa-user-check"></i>
+                <strong>Hợp tác cùng nghệ sĩ danh tiếng, tác phẩm được chọn lọc bởi chuyên gia.</strong>
+            </div>
+            
+            <div class="usp" id="usp-3">
+                <i class="fa-solid fa-shield-halved"></i>
+                <strong>Canvas, sơn và khung chuẩn trưng bày, bền đẹp theo thời gian.</strong>
+            </div>
+            
+            <div class="usp" id="usp-4">
+                <i class="fa-solid fa-certificate"></i>
+                <strong>Chứng nhận chính hãng, giao dịch an toàn, trải nghiệm mua sắm tinh tế.</strong>
+            </div>
+        </div>
+        
+        <div class="section-4">
+            <h2 class="section-title">Tác giả được đề xuất</h2>
+            <div id="random-artist"></div>
+        </div>
+        
+        <div class="section-5">
+            <div class="target-card" id="card-1">
+                <i class="fa-regular fa-gem"></i>
+                <h2>Không gian nghệ thuật cao cấp</h2>
+                <p>Kiến tạo không gian nghệ thuật sang trọng, hội tụ các tác phẩm có giá trị thẩm mỹ, tinh thần sáng tạo và đẳng cấp vượt thời gian.</p>
+            </div>
+            
+            <div class="target-card" id="card-2">
+                <i class="fa-solid fa-crown"></i>
+                <h2>Thể hiện phong cách & vị thế</h2>
+                <p>Mỗi bức tranh không chỉ làm đẹp không gian sống mà còn thể hiện phong cách, cá tính và vị thế của chủ nhân.</p>
+            </div>
+            
+            <div class="target-card" id="card-3">
+                <i class="fa-solid fa-globe"></i>
+                <h2>Cầu nối & lan toả nghệ thuật Việt</h2>
+                <p>Trở thành cầu nối giữa nghệ sĩ và giới sưu tầm tinh hoa, lan toả niềm đam mê nghệ thuật và xây dựng cộng đồng yêu nghệ thuật mang dấu ấn văn hoá Việt Nam, vươn tầm quốc tế.</p>
+            </div>
+        </div>
+        
+        <div class="section-6">
+            <h2 class="section-title">Blog được đề xuất</h2>
+            <div id="random-blog"></div>
+        </div>
+        
+        <div class="section-7">
+            <h2 class="section-title">Đánh giá của khách hàng</h2>
+            
+            <div class="rating">
+                <div id="rating-summary"></div>
+            
+                <div class="rating-slider">
+                    <button class="nav prev"><i class="fa-solid fa-arrow-left"></i></button>
+                    <div id="rating-list"></div>
+                    <button class="nav next"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section-8">
+            <h2>Tham gia bản tin của ARTEL</h2>
+            
+            <div class="mailing-wrap">
+                <input type="email" placeholder="Nhập Email...">
+                <button>Đăng Ký</button>
+            </div>
+        </div>
         
         <footer>
-            <p>This is a footer</p>
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Về ARTEL</h4>
+                    <a href="#">Về chúng tôi</a>
+                    <a href="#">Liên hệ với chúng tôi</a>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Dành cho khách hàng</h4>
+                    <a href="#">Tìm quà</a>
+                    <a href="#">Hỗ trợ khách hàng</a>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Dành cho họa sĩ</h4>
+                    <a href="#">Lý do nên bán ở ARTEL</a>
+                    <a href="#">Terms and Conditions</a>
+                    <a href="#">Hỗ trợ họa sĩ</a>
+                    <a href="#">Apply to Sell</a>
+                    <a href="#">Cách bán tranh trực tuyến</a>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Artwork</h4>
+                    <a href="#">Paintings</a>
+                </div>
+            </div>
         </footer>
 
         <script src="script.js"></script>

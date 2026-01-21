@@ -24,6 +24,8 @@ const ITEMS_PER_PAGE = 12;
 
 const params = new URLSearchParams(window.location.search);
 const filter = params.get("filter") ?? "none";
+const rawAuthor = params.get("author");
+const author = rawAuthor ? decodeURIComponent(rawAuthor) : "none";
 
 let currentPage = Number(params.get("page")) || 1;
 
@@ -78,6 +80,7 @@ function renderPagination(items) {
 
         if (i === currentPage) btn.classList.add("active");
 
+        /* jshint loopfunc:true */
         btn.onclick = () => {
             currentPage = i;
             renderGallery(items);
@@ -95,10 +98,14 @@ fetch("./photos.json")
     .then(res => res.json())
     .then(photos => {
         let hasPhoto = false;
+        let filteredPhotos = [];
     
         photos.items.forEach(photo => {
             if (filter !== "none" && photo.type !== filter) return;
+            if (author !== "none" && photo.author !== author) return;
             hasPhoto = true;
+            
+            filteredPhotos.push(photo);
         });
     
         if (!hasPhoto) {
@@ -124,7 +131,7 @@ fetch("./photos.json")
             
             gallery.appendChild(card);
         } else {
-            renderGallery(photos.items);
-            renderPagination(photos.items);
+            renderGallery(filteredPhotos);
+            renderPagination(filteredPhotos);
         }    
     });

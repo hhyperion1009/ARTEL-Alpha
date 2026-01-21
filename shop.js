@@ -43,7 +43,6 @@ function addToCart() {
     const existing = cart.find(item => item.id === product.id);
 
     if (existing) {
-        alert("Tranh có trong giỏ rồi!");
         return;
     } else {
         cart.push({
@@ -55,7 +54,8 @@ function addToCart() {
     }
 
     saveCart(cart);
-    alert("Đã thêm vào giỏ 🛒");
+    document.getElementById("add-to-cart").classList.toggle("active");
+    document.getElementById("add-to-cart").innerHTML = "<strong>ADDED TO CART</strong>";
 }
 
 let product = null;
@@ -78,7 +78,7 @@ fetch("./photos.json")
                 '<h3 id="art-title">' + product.title + '</h3>' +
                 '<p id="art-author"><em>Bởi ' + product.author + '</em></p>' +
                 '<p id="art-price"><strong><em>£' + product.price + '</em></strong></p>' +
-                '<button class="add-to-cart" onclick="addToCart()"><i class="fa-solid fa-cart-plus"></i><strong>ADD TO CART</strong></button>' +
+                '<button id="add-to-cart" onclick="addToCart()"><i class="fa-solid fa-cart-plus"></i><strong>ADD TO CART</strong></button>' +
             '</div>';
     
         const ul = document.getElementById("details");

@@ -1,0 +1,32 @@
+{
+    "summary": {
+        "rating": 4.5,
+        "count": 4
+    },
+    
+    "reviews": [
+        {
+            "stars": 5,
+            "text": "Tranh có chiều sâu, màu sắc rất thật. Treo lên là không gian khác hẳn.",
+            "author": "Vũ Thanh Vân"
+        },
+        
+        {
+            "stars": 5,
+            "text": "Nghệ thuật giúp tôi vừa tìm thấy chính mình, vừa lạc vào một không gian đầy cảm xúc.",
+            "author": "Teresa Gallagher"
+        },
+        
+        {
+            "stars": 4,
+            "text": "Được tư vấn kỹ, hiểu rõ câu chuyện phía sau tác phẩm.",
+            "author": "Đức Minh"
+        },
+        
+        {
+            "stars": 4,
+            "text": "Một tác phẩm nghệ thuật không phải để ngắm một lần, mà để cảm nhận lâu dài.",
+            "author": "Laura Cumming"
+        }
+    ]
+}
