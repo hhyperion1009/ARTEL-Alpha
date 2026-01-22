@@ -29,16 +29,18 @@ if (cart.length === 0) {
     cart.forEach(item => {
         total += item.price;
     
-        const li = document.createElement("li");
-        li.innerHTML =
+        const card = document.createElement("div");
+        card.className = "art-card";
+        
+        card.innerHTML =
             '<img src="' + item.image + '">' +
             '<div class="info">' +
-                '<strong>' + item.title + '</strong><br>' +
+                '<strong>"' + item.title + '"</strong><br>' +
                 '<em>Giá: £' + item.price.toLocaleString() + '</em>' +
             '</div>' +
             '<button data-id="' + item.id + '" class="remove">✕</button>';
         
-        ul.appendChild(li);
+        ul.appendChild(card);
     });
 }
 

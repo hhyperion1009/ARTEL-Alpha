@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>ARTEL - Your Cart</title>
+        <title>ARTEL - Giỏ Hàng</title>
         <link rel="icon" href="assets/artel-logo-squared.png">
         <link rel="stylesheet" href="styles.css" />
         <link rel="stylesheet" href="cart.css" />
@@ -39,23 +39,28 @@
         </nav>
         
         <div class="first-section">
-            <h1>My Cart</h1>        
+            <h1>Giỏ hàng của bạn</h1>        
         </div>
         
-        <div class="cart-section">
-            <div id="products">
-                <ul id="cart-list"></ul>
-            </div>
-        
-            <div class="ting-ting">
-                <div class="total-money">
-                    <p id="cart-total"></p>
-                    <p id="vnd-exchange"></p>
-                </div>
-                <button id="pay-btn" onclick="pay()"><i class="fa-regular fa-paper-plane"></i> THANH TOÁN</button>
+        <div class="cart-content">
+            <div id="cart-list"></div>
+            <div class="cart-form">
+                <h1>Thông tin liên hệ</h1>
+                <label for="name">Họ và Tên</label>
+                <input type="text" id="name" placeholder="Nguyễn Văn A" required>
+                
+                <label for="address">Địa chỉ</label>
+                <input type="text" id="address" placeholder="Trái tim em" required>
+                
+                <label for="phone-num">Số điện thoại</label>
+                <input type="tel" id="phone-num" pattern="0[0-9]{9}" placeholder="0123456789" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="example@sth.vlxx" required>
+                <label for="coupon">Mã giảm giá</label>
+                <input type="text" id="coupon" placeholder="XXXX">
+                <button>Xác nhận</button>
             </div>
         </div>
-        
 
         <footer>
             <div class="footer-grid">
@@ -63,6 +68,7 @@
                     <h4>Về ARTEL</h4>
                     <a href="#">Về chúng tôi</a>
                     <a href="#">Liên hệ với chúng tôi</a>
+                    <a href="blog.html">Blog</a>
                 </div>
 
                 <div class="footer-col">
@@ -73,16 +79,16 @@
 
                 <div class="footer-col">
                     <h4>Dành cho họa sĩ</h4>
+                    <a href="tac.html">Điều khoản & Điều kiện</a>
                     <a href="#">Lý do nên bán ở ARTEL</a>
-                    <a href="#">Terms and Conditions</a>
                     <a href="#">Hỗ trợ họa sĩ</a>
-                    <a href="#">Apply to Sell</a>
+                    <a href="#">Đăng ký bán hàng</a>
                     <a href="#">Cách bán tranh trực tuyến</a>
                 </div>
 
                 <div class="footer-col">
-                    <h4>Artwork</h4>
-                    <a href="#">Paintings</a>
+                    <h4>Tác phẩm nghệ thuật</h4>
+                    <a href="gallery.html?filter=painting">Tranh vẽ</a>
                 </div>
             </div>
         </footer>

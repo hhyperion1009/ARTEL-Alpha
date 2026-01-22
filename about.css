@@ -1,63 +1,59 @@
 .about-title {
-    text-align: center;
-    place-content: center;
-    height: 150px;
+    margin: 48px 120px;
+}
+
+.about-title h1 {
     font-size: 32px;
-    background-color: aquamarine;
+    margin-bottom: 0.5em;
 }
 
 .about-content {
-    margin: 32px 64px;
+    margin: 48px 80px;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 64px;
 }
 
-.logo-slogan {
+.intro {
     display: flex;
+    gap: 48px;
     place-items: center;
-    place-content: center;
-    gap: 32px;
 }
 
-.logo-slogan img {
-    width: 150px;
-    border-radius: 10px;
-    border: 1px solid;
+#intro-img {
+    width: 100%;
+}
+
+#intro-img img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px
 }
 
 .introduction {
-    background-color: cadetblue;
-    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+.future-vision {
+    display: flex;
+    gap: 48px;
+    place-items: center;
+}
+
+#vision-img {
+    width: 100%;
+}
+
+#vision-img img {
+    width: 100%;
+    object-fit: cover;
     border-radius: 10px;
-}
-
-.introduction-title {
-    font-size: 20px;
-    margin-bottom: 1em;
-}
-
-.introduction-content {
-    font-size: 18px;
-    line-height: 1.5;
 }
 
 .vision {
-    background-color: darkseagreen;
-    padding: 32px;
-    border-radius: 10px;
-}
-
-.vision-title {
-    font-size: 20px;
-    margin-bottom: 1em;
-}
-
-.vision ul li {
-    font-size: 18px;
-    line-height: 1.5;
-}
-
-.not-last {
-    margin: 0 0 1.2em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
 }

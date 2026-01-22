@@ -7,6 +7,13 @@
     margin-bottom: 0.5em;
 }
 
+.first-section button {
+    margin: 1.5em 5px 0 0;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
 .gallery {
     margin: 32px 16px;
     display: flex;

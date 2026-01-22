@@ -255,18 +255,28 @@
     background-color: white;
     padding: 32px;
     place-items: center;
+    border-radius: 10px;
 }
 
 .target-card i {
     font-size: 32px;
+    color: #FF1749;
 }
 
 .target-card h2 {
     text-align: center;
+    font-size: 20px;
 }
 
 .target-card p {
-    font-size: 18px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.target-card a {
+    color: #FF1749;
+    margin-top: auto;
+    font-weight: bold;
 }
 
 .section-6 {

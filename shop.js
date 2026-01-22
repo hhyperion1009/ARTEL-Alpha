@@ -54,8 +54,7 @@ function addToCart() {
     }
 
     saveCart(cart);
-    document.getElementById("add-to-cart").classList.toggle("active");
-    document.getElementById("add-to-cart").innerHTML = "<strong>ADDED TO CART</strong>";
+    window.location.href = "cart.html";
 }
 
 let product = null;
@@ -71,14 +70,20 @@ fetch("./photos.json")
         }
         
         const art = document.getElementById("art");
-    
+        const artImg = document.getElementById("art-img-div");
+
+        artImg.innerHTML = '<img id="art-img" src="./assets/images/' + id + '.webp" />';
+        
         art.innerHTML =
-            '<img id="art-img" src="./assets/images/' + id + '.webp" />' +
             '<div id="art-text">' +
-                '<h3 id="art-title">' + product.title + '</h3>' +
-                '<p id="art-author"><em>Bởi ' + product.author + '</em></p>' +
-                '<p id="art-price"><strong><em>£' + product.price + '</em></strong></p>' +
-                '<button id="add-to-cart" onclick="addToCart()"><i class="fa-solid fa-cart-plus"></i><strong>ADD TO CART</strong></button>' +
+                '<h3 id="art-title">"' + product.title + '"</h3>' +
+                '<p class="art-content">Tranh ' + t(product.material) + '</p>' +
+                '<p class="art-content"><em>Bởi ' + product.author + '</em></p>' +
+                '<div class="stars">' +
+                    '<i class="fa-solid fa-star"></i>'.repeat(5) +
+                '</div>' +
+                '<h3 id="art-price">£' + product.price + '</h3>' +
+                '<button id="add-to-cart" onclick="addToCart()"><strong>LIÊN HỆ VỚI CHÚNG TÔI</strong></button>' +
             '</div>';
     
         const ul = document.getElementById("details");

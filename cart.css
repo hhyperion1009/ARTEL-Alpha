@@ -6,86 +6,92 @@
     background-color: forestgreen;
 }
 
-.cart-section {
-    margin: 32px;
+.cart-content {
+    margin: 48px 32px;
+    display: flex;
+    place-content: center;
+}
+
+#cart-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    place-content: center;
+    flex: 0 0 66.6666666667%;
+    padding: 32px 0;
+}
+
+.art-card {
+    flex: 0 0 calc(20% - 16px);
+    border-radius: 10px;
+    padding: 20px 12px;
     display: flex;
     flex-direction: column;
+    place-items: center;
+    place-content: center;
     gap: 32px;
 }
 
-#products {
-    place-items: center;
-}
-
-#products ul {
+.art-card img {
     width: 80%;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-#products ul li {
-    list-style-type: none;
-    display: flex;
-    padding: 16px;
-    align-items: center;
-    text-align: center;
-    border: 1px solid;
     border-radius: 10px;
-    position: relative;
 }
 
-#products .remove {
-    position: absolute;
-    right: 12px;
-    background-color: rgba(0, 0, 0, 0.2);
+.art-card button {
     border: none;
-    padding: 5px 8px;
+    padding: 5px;
+    aspect-ratio: 1;
     border-radius: 100%;
+    margin-top: auto;
+    background-color: #ff1749;
+    color: white;
 }
 
-#products .remove:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+.art-card button:hover {
+    background-color: #ca143b;
 }
 
-#products ul li img {
-    width: 200px;
-    border-radius: 10px;
-    border: 5px solid;
+.art-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
-#products .info {
+.cart-form {
+    flex: 0 0 33.3333333333%;
     display: flex;
     flex-direction: column;
-    width: 100%;
-}
-
-#products a {
-    text-decoration: none;
-    color: black;
-}
-
-.ting-ting {
-    display: flex;
     place-content: center;
-    gap: 100px;
+    place-items: center;
+    gap: 16px;
+    background-color: beige;
 }
 
-.ting-ting .total-money {
-    text-align: center;
-    background-color: cadetblue;
-    padding: 25px;
+.cart-form h1 {
+    margin-bottom: 16px;
+}
+
+.cart-form label, input {
+    display: block;
+}
+
+.cart-form label {
+    font-size: 18px;
+}
+
+.cart-form input {
+    padding: 12px;
     border-radius: 10px;
+    border: 1px solid;
+    width: 70%;
 }
 
-.ting-ting #pay-btn {
+.cart-form button {
+    margin-top: 16px;
     padding: 16px;
     border: none;
-    border-radius: 10px;
-    background-color: rgba(143, 188, 143, 0.65);
+    background-color: #ff1749;
+    color: white;
+    font-size: 16px;
     font-weight: bold;
-}
-
-.ting-ting #pay-btn:hover {
-    background-color: darkseagreen;
+    border-radius: 10px;
 }
